@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 130vh;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 300px;
+}
+.general-content{
+    height: 100%;
+    width: 100%;
+    padding: 1px 50px;
+    background: linear-gradient(180deg, #F4F1EC -56.99%, #FFF 52.69%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px ;
+}
+.navcenter{
+    display: flex;
+    gap: 35px;
+    margin-left: 100px;
+}
+.navlink-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navcenter-links1{
+    font-size: 18px;
+    font-weight: 400;
+    color: #F38160;
+}
+.navcenter-links{
+    font-size: 18px;
+    font-weight: 400;
+    color: #403C39;
+}
+.active{
+   border-bottom: 2px solid #F38160;
+}
+.navright{
+   display: flex;
+   gap: 30px;
+   align-items: center;
+}
+.shopping-ellipse{
+    padding-bottom: 22px;
+}
+.signing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 19px;
+}
+.signin-link{
+    color: var(--Red, #F38160);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+.signup-button{
+    display: flex;
+    width: 140px;
+    height: 60px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--Red, #F38160);
+    color: #FAFAFA;
+}
+.main-title-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.service-heading{
+    color: var(--Black, #403C39);
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -2.8px;
+}
+.service-heading-grocery{
+    color: var(--Red, #F38160);
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -2.8px;
+}
+.service-paragraph{
+    color: var(--Gray-2, #949494);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px ;
+}
+.form{
+  margin-top: 25px;
+}
+.form-image{
+    position: absolute;
+    width: 360px;
+    height: 60px;
+    border: 1px solid #403C39;
+    border-radius: 8px;
+    background: rgba(208, 208, 210, 0.25);
+    color:#949494;
+    font-size: 18px;
+    font-weight: 400;
+}
+.form-image:hover{
+    border: 1px solid #403C39;
+    border-radius: 8px;
+    color:#949494;
+}
+.form-search{
+    position: relative;
+    margin-left: 300px
+}
+.form-paragraph{
+    position: absolute;
+    z-index: -1;
+    margin-bottom: px;
+    margin-left: 900px
+}
+.check-images{
+    margin-left: 1px;
+}
+.main-title-services{
+    margin-bottom: 70px;
+}
+.main-titlecheck1{
+    display: flex;
+    margin-top: 20px;
+    gap: 11px;
+    align-items: center;
+}
+.main-titlecheck2{
+    display: flex;
+    margin-top: 10px;
+    gap: 12px;
+    align-items: center;
+}
+.main-title-image{
+    display: flex;
+    gap: 50px;
+    margin-left: 30px;
+}
+.main-title-products{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.african-man{
+    width: 70%;
+    object-fit: cover;
+    margin-top: -120px;
+}
+.fruit-images{
+    width: 190px;
+    height: 240px;
+}
+.groceryfooter{
+    display: flex;
+    gap: 15px;
+}
+.footer-sub{
+    color: var(--Black, #403C39);
+    font-size: 21px;
+    font-weight: 500;
+}
+.footer-paragraph{
+    color: var(--Gray-2, #909090);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
